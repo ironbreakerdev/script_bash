@@ -8,7 +8,7 @@ echo "#                                                    #"
 echo "######################################################"
 
 
-#verifico se l'utente è root
+#verifico se l'utente è root 
 if [[ $EUID -ne 0 ]]; then
    echo "Attenzione, devi avviare lo script come root" 
    exit 1
